@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Home from "./pages/home/Home";
-// import Register from './pages/auth/Register'
-// import Login from './pages/auth/Login'
+
 import { LoginRegister } from "./pages/auth/LoginRegister";
+import Home from "./pages/home/Home";
+
 // import Shop from "./pages/shop/Shop"
 // import About from "./pages/about/About";
 // import Contact from "./pages/contact/Contact";
@@ -19,20 +19,24 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        {/* <Route path="/" element={<Home />} />
-        <Route path="/daftar" element={<Register />} />
-        <Route path="/masuk" element={<Login />} /> */}
-        <Route path="/" element={<LoginRegister />} />
-        {/* <Route path="/shop" element={<Shop />} />
+        <Route path="login-register" element={<LoginRegister />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/shop" element={<Shop />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />
-        <Route path="/shop/product/detail-product" element={<DetailProduct />} />
+        <Route
+          path="/shop/product/detail-product"
+          element={<DetailProduct />}
+        />
         <Route path="/cart" element={<Cart />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/product" element={<Product />} />
         <Route path="/product/edit/:id" element={<EditProduct />} />
         <Route path="/product/add" element={<AddProduct />} />
-        <Route path="/product/add-category-product" element={<AddCategoryProduct />} /> */}
+        <Route
+          path="/product/add-category-product"
+          element={<AddCategoryProduct />}
+        />
       </Routes>
     </BrowserRouter>
   );
