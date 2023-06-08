@@ -40,3 +40,31 @@
 .read-the-docs {
   color: #888;
 }
+
+
+bg-hero {
+  background: url('./assets/img/shop/BgHero.png');
+}
+
+.bg-hero-2 {
+  background: url('./assets/img/BgHero.png');
+}
+
+.bg-collection-1 {
+  background: url('./assets/img/home/Collection1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bg-collection-2 {
+  background: url('./assets/img/home/Collection2.png');
+}
+
+.bg-collection-3 {
+  background: url('./assets/img/home/Collection3.png');
+}
