@@ -20,7 +20,7 @@ export const LoginRegister = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:8000/api/login", {
+      const response = await axios.post("https://testing-webbb.000webhostapp.com/api/login", {
         email,
         password,
       });
@@ -54,7 +54,7 @@ export const LoginRegister = () => {
   //   e.preventDefault();
   //   try {
   //     const response = await axios.post(
-  //       "http://localhost:8000/api/login",
+  //       "https://testing-webbb.000webhostapp.com/api/login",
   //       loginData
   //     );
   //     console.log(response.data); // Handle the successful login response
@@ -77,7 +77,7 @@ export const LoginRegister = () => {
     }
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/register",
+        "https://testing-webbb.000webhostapp.com/api/register",
         registerData
       );
       console.log(response.data); // Handle the successful registration response

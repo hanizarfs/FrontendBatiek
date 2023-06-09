@@ -21,7 +21,7 @@ const Router = () => {
       <Routes>
         <Route path="login-register" element={<LoginRegister />} />
         <Route path="/" element={<Home />} />
-        <Route path="/shop" element={<Shop />} />
+        {/* <Route path="/shop" element={<Shop />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route
@@ -36,7 +36,7 @@ const Router = () => {
         <Route
           path="/product/add-category-product"
           element={<AddCategoryProduct />}
-        />
+        /> */}
       </Routes>
     </BrowserRouter>
   );
